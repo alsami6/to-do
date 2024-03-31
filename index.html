@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white">
+    <header class="bg-blue-950 text-white py-12">
+        <h1 class="text-center font-bold pb-7 text-2xl mr-60">Today</h1>
+        <div class="flex flex-col gap-2 lg:flex-row justify-center">
+            <input class="px-12 py-2 rounded-xl text-black outline-none" type="text" placeholder="Write your task">
+            <button class="lg:ml-2 py-2 px-4 bg-orange-600 rounded-lg font-semibold hover:bg-orange-400 active:opacity-55">Submit</button>
+        </div>
+    </header>
+    <main>
+        <div>
+            <ul>
+                <li>
+                    <span>Remaning</span>
+                    <span>0</span>
+                </li>
+                <li>
+                    <span>Completed</span>
+                    <span>0</span>
+                </li>
+                <li>
+                    <span>Total</span>
+                    <span>0</span>
+                </li>
+            </ul>
+        </div>
+    </main>
+</body>
+</html>
